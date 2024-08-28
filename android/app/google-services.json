@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "727212500299",
+    "project_id": "stackbuld-554db",
+    "storage_bucket": "stackbuld-554db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727212500299:android:58a20166f7f4a6477934ce",
+        "android_client_info": {
+          "package_name": "com.example.stackbuld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqG33W6Vi1rfS42IJehzcqt6njCtXVYkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
