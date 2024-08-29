@@ -27,14 +27,14 @@ The Product Catalog App is a Flutter application designed for browsing, filterin
    ```bash
    git clone https://github.com/your-username/product-catalog-app.git
    cd product-catalog-app
-Install Dependencies:
+## Install Dependencies:
 
 Ensure Flutter is installed and then run:
 
 bash
 Copy code
 flutter pub get
-Configure Firebase:
+## Configure Firebase:
 
 Create a Firebase project at Firebase Console.
 Add an Android and/or iOS app to your Firebase project and follow the setup instructions.
@@ -42,17 +42,17 @@ Download the google-services.json (for Android) and/or GoogleService-Info.plist 
 Place these files in the appropriate directories:
 android/app/ for google-services.json
 ios/Runner/ for GoogleService-Info.plist
-Run the App:
+## Run the App:
 
 Connect your device or start an emulator, then execute:
 
 bash
 Copy code
 flutter run
-Design Decisions, Optimizations, and Trade-offs
+## Design Decisions, Optimizations, and Trade-offs
 State Management: The app uses GetX for state management, providing a reactive programming model that simplifies state management and reduces boilerplate code.
 
-Performance Optimization:
+## Performance Optimization:
 
 Image Caching: Utilizes CachedNetworkImage to cache images and minimize network usage.
 Firestore Streams: Implements real-time updates via Firestore streams to keep the UI synchronized with the backend.
@@ -72,24 +72,7 @@ Dependency Injection: Efficiently manages controllers and their lifecycles.
 Routing: Simplifies navigation and route management.
 GetX provides a streamlined approach to state management with minimal boilerplate, ensuring a clean and scalable codebase.
 
-Code Samples
-AddProductDialog
-dart
-Copy code
-// AddProductDialog code provided above
-EditProductDialog
-dart
-Copy code
-// EditProductDialog code provided above
-ProductDetailsView
-dart
-Copy code
-// ProductDetailsView code provided above
-ProductController
-dart
-Copy code
-// ProductController code provided above
-Additional Information
+##Additional Information
 Flutter Version: Ensure that you use Flutter 3.0 or higher for compatibility.
 Firebase Integration: Make sure Firebase is properly configured as per the Firebase setup guide.
 For further details, refer to the GetX documentation and Flutter’s official documentation.
