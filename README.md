@@ -72,7 +72,7 @@ Dependency Injection: Efficiently manages controllers and their lifecycles.
 Routing: Simplifies navigation and route management.
 GetX provides a streamlined approach to state management with minimal boilerplate, ensuring a clean and scalable codebase.
 
-##Additional Information
+## Additional Information
 Flutter Version: Ensure that you use Flutter 3.0 or higher for compatibility.
 Firebase Integration: Make sure Firebase is properly configured as per the Firebase setup guide.
 For further details, refer to the GetX documentation and Flutter’s official documentation.
