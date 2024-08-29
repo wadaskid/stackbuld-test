@@ -17,11 +17,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Stackbuld Test',
+      debugShowCheckedModeBanner: false,
       home: ProductListView(),
       theme: ThemeData(
-          appBarTheme: const AppBarTheme(
-        color: Colors.redAccent,
-      )),
+        appBarTheme: const AppBarTheme(
+          color: Colors.redAccent,
+          foregroundColor: Colors.white,
+        ),
+      ),
     );
   }
 }
